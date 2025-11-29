@@ -79,28 +79,51 @@ const Index = () => {
             PROJECT-251: CEML1
           </p>
           
-          <div className="flex flex-wrap justify-center gap-3 mb-12">
-            <Badge variant="secondary" className="px-4 py-2 text-sm bg-primary/10 text-primary border-primary/50 shadow-sm">
-              <BookOpen className="mr-2 h-4 w-4" />
-              Machine Learning CO3117
-            </Badge>
-            <Badge variant="secondary" className="px-4 py-2 text-sm bg-secondary/10 text-secondary border-secondary/50 shadow-sm">
-              🐍 Python 3.6+
-            </Badge>
-            <Badge variant="secondary" className="px-4 py-2 text-sm bg-accent/10 text-accent border-accent/50 shadow-sm">
-              📓 Jupyter Notebook
-            </Badge>
-            <Badge variant="secondary" className="px-4 py-2 text-sm bg-green-100 text-green-700 border-green-300 shadow-sm">
-              ✓ Status: Complete
-            </Badge>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
+            <a
+              href="#"
+              className="group p-6 bg-card/80 backdrop-blur-sm border border-border/50 rounded-lg hover:border-accent/50 transition-all hover:shadow-glow"
+            >
+              <div className="text-2xl font-bold text-gradient-primary mb-2">BTL 1</div>
+              <div className="text-sm text-muted-foreground">Bài tập lớn 1</div>
+              <div className="mt-3 text-xs text-accent group-hover:translate-x-1 transition-transform">
+                Xem chi tiết →
+              </div>
+            </a>
+            
+            <a
+              href="#"
+              className="group p-6 bg-card/80 backdrop-blur-sm border border-border/50 rounded-lg hover:border-accent/50 transition-all hover:shadow-glow"
+            >
+              <div className="text-2xl font-bold text-gradient-primary mb-2">BTL 2</div>
+              <div className="text-sm text-muted-foreground">Bài tập lớn 2</div>
+              <div className="mt-3 text-xs text-accent group-hover:translate-x-1 transition-transform">
+                Xem chi tiết →
+              </div>
+            </a>
+            
+            <a
+              href="#"
+              className="group p-6 bg-card/80 backdrop-blur-sm border border-border/50 rounded-lg hover:border-accent/50 transition-all hover:shadow-glow"
+            >
+              <div className="text-2xl font-bold text-gradient-primary mb-2">BTL 3</div>
+              <div className="text-sm text-muted-foreground">Bài tập lớn 3</div>
+              <div className="mt-3 text-xs text-accent group-hover:translate-x-1 transition-transform">
+                Xem chi tiết →
+              </div>
+            </a>
+            
+            <a
+              href="#"
+              className="group p-6 bg-card/80 backdrop-blur-sm border border-border/50 rounded-lg hover:border-accent/50 transition-all hover:shadow-glow"
+            >
+              <div className="text-2xl font-bold text-gradient-primary mb-2">HPMR</div>
+              <div className="text-sm text-muted-foreground">Học phần mở rộng</div>
+              <div className="mt-3 text-xs text-accent group-hover:translate-x-1 transition-transform">
+                Xem chi tiết →
+              </div>
+            </a>
           </div>
-
-          <Button 
-            size="lg" 
-            className="bg-gradient-primary text-primary-foreground hover:opacity-90 transition-all hover:scale-105 shadow-lg"
-          >
-            Xem Chi Tiết Dự Án
-          </Button>
         </div>
       </section>
 

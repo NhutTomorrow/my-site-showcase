@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
   // THÊM DÒNG NÀY (Copy chính xác tên repo của bạn):
-  base: "/Machine-Learning-Project-251---CEML1/",
+  base: '/my_site_showcase/',
 
   server: {
     host: "::",

@@ -38,11 +38,11 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-hero">
       {/* Header */}
-      <header className="border-b border-border/50 backdrop-blur-sm sticky top-0 z-50 bg-background/80">
+      <header className="border-b border-border backdrop-blur-sm sticky top-0 z-50 bg-background/95 shadow-sm">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="h-10 w-10 rounded-lg bg-gradient-primary flex items-center justify-center">
+              <div className="h-10 w-10 rounded-lg bg-gradient-primary flex items-center justify-center shadow-lg">
                 <BookOpen className="h-6 w-6 text-primary-foreground" />
               </div>
               <span className="font-display text-2xl font-bold text-gradient">
@@ -50,16 +50,16 @@ const Index = () => {
               </span>
             </div>
             <nav className="hidden md:flex items-center gap-8">
-              <a href="#info" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="#info" className="text-muted-foreground hover:text-primary transition-colors font-medium">
                 Thông tin
               </a>
-              <a href="#team" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="#team" className="text-muted-foreground hover:text-primary transition-colors font-medium">
                 Thành viên
               </a>
-              <a href="#objectives" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="#objectives" className="text-muted-foreground hover:text-primary transition-colors font-medium">
                 Mục tiêu
               </a>
-              <Button variant="outline" size="sm" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+              <Button variant="outline" size="sm" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground shadow-md">
                 <Github className="mr-2 h-4 w-4" />
                 GitHub
               </Button>
@@ -80,17 +80,17 @@ const Index = () => {
           </p>
           
           <div className="flex flex-wrap justify-center gap-3 mb-12">
-            <Badge variant="secondary" className="px-4 py-2 text-sm bg-primary/10 text-primary border-primary/30">
+            <Badge variant="secondary" className="px-4 py-2 text-sm bg-primary/10 text-primary border-primary/50 shadow-sm">
               <BookOpen className="mr-2 h-4 w-4" />
               Machine Learning CO3117
             </Badge>
-            <Badge variant="secondary" className="px-4 py-2 text-sm bg-secondary/10 text-secondary border-secondary/30">
+            <Badge variant="secondary" className="px-4 py-2 text-sm bg-secondary/10 text-secondary border-secondary/50 shadow-sm">
               🐍 Python 3.6+
             </Badge>
-            <Badge variant="secondary" className="px-4 py-2 text-sm bg-accent/10 text-accent border-accent/30">
+            <Badge variant="secondary" className="px-4 py-2 text-sm bg-accent/10 text-accent border-accent/50 shadow-sm">
               📓 Jupyter Notebook
             </Badge>
-            <Badge variant="secondary" className="px-4 py-2 text-sm bg-green-500/10 text-green-400 border-green-500/30">
+            <Badge variant="secondary" className="px-4 py-2 text-sm bg-green-100 text-green-700 border-green-300 shadow-sm">
               ✓ Status: Complete
             </Badge>
           </div>
@@ -114,25 +114,25 @@ const Index = () => {
             </h2>
           </div>
           
-          <div className="bg-card border border-border rounded-xl overflow-hidden shadow-2xl">
+          <div className="bg-card border border-border rounded-xl overflow-hidden shadow-xl">
             <div className="overflow-x-auto">
               <table className="w-full">
                 <thead>
-                  <tr className="border-b border-border bg-muted/50">
-                    <th className="px-6 py-4 text-left font-display text-primary">Môn học</th>
-                    <th className="px-6 py-4 text-left font-display text-primary">Mã môn</th>
-                    <th className="px-6 py-4 text-left font-display text-primary">Giảng viên</th>
+                  <tr className="border-b border-border bg-gradient-primary">
+                    <th className="px-6 py-4 text-left font-display text-primary-foreground">Môn học</th>
+                    <th className="px-6 py-4 text-left font-display text-primary-foreground">Mã môn</th>
+                    <th className="px-6 py-4 text-left font-display text-primary-foreground">Giảng viên</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-border/50 hover:bg-muted/30 transition-colors">
+                  <tr className="border-b border-border hover:bg-muted/50 transition-colors">
                     <td className="px-6 py-4 font-medium">Học máy (Machine Learning)</td>
                     <td className="px-6 py-4">
-                      <Badge variant="outline" className="border-primary text-primary">CO3117</Badge>
+                      <Badge variant="outline" className="border-primary text-primary shadow-sm">CO3117</Badge>
                     </td>
                     <td className="px-6 py-4">TS. Lê Thành Sách</td>
                   </tr>
-                  <tr className="hover:bg-muted/30 transition-colors">
+                  <tr className="hover:bg-muted/50 transition-colors">
                     <td className="px-6 py-4 font-medium">Học kỳ</td>
                     <td className="px-6 py-4">251</td>
                     <td className="px-6 py-4">Năm học 2025-2026</td>
@@ -154,31 +154,31 @@ const Index = () => {
             </h2>
           </div>
           
-          <div className="bg-card border border-border rounded-xl overflow-hidden shadow-2xl">
+          <div className="bg-card border border-border rounded-xl overflow-hidden shadow-xl">
             <div className="overflow-x-auto">
               <table className="w-full">
                 <thead>
-                  <tr className="border-b border-border bg-muted/50">
-                    <th className="px-6 py-4 text-left font-display text-primary">#</th>
-                    <th className="px-6 py-4 text-left font-display text-primary">Họ và Tên</th>
-                    <th className="px-6 py-4 text-left font-display text-primary">MSSV</th>
-                    <th className="px-6 py-4 text-left font-display text-primary">Email</th>
+                  <tr className="border-b border-border bg-gradient-primary">
+                    <th className="px-6 py-4 text-left font-display text-primary-foreground">#</th>
+                    <th className="px-6 py-4 text-left font-display text-primary-foreground">Họ và Tên</th>
+                    <th className="px-6 py-4 text-left font-display text-primary-foreground">MSSV</th>
+                    <th className="px-6 py-4 text-left font-display text-primary-foreground">Email</th>
                   </tr>
                 </thead>
                 <tbody>
                   {teamMembers.map((member, index) => (
                     <tr 
                       key={index} 
-                      className="border-b border-border/50 last:border-b-0 hover:bg-muted/30 transition-colors"
+                      className="border-b border-border last:border-b-0 hover:bg-muted/50 transition-colors"
                     >
                       <td className="px-6 py-4 font-medium text-muted-foreground">{index + 1}</td>
                       <td className="px-6 py-4 font-medium">{member.name}</td>
                       <td className="px-6 py-4">
-                        <Badge variant="secondary" className="bg-muted">
+                        <Badge variant="secondary" className="bg-muted shadow-sm">
                           {member.id}
                         </Badge>
                       </td>
-                      <td className="px-6 py-4 text-muted-foreground">{member.email}</td>
+                      <td className="px-6 py-4 text-muted-foreground text-sm">{member.email}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -198,7 +198,7 @@ const Index = () => {
             </h2>
           </div>
           
-          <div className="bg-card border border-border rounded-xl p-8 shadow-2xl">
+          <div className="bg-card border border-border rounded-xl p-8 shadow-xl">
             <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
               Bài tập lớn được thiết kế với các mục tiêu cụ thể sau:
             </p>
@@ -208,7 +208,7 @@ const Index = () => {
                   key={index} 
                   className="flex gap-4 items-start group hover:translate-x-2 transition-transform"
                 >
-                  <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center text-primary-foreground font-bold mt-1">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center text-primary-foreground font-bold mt-1 shadow-md">
                     {index + 1}
                   </div>
                   <p className="text-base leading-relaxed text-foreground flex-1">
@@ -222,10 +222,10 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-border/50 bg-background/80 backdrop-blur-sm">
+      <footer className="border-t border-border bg-card/50 backdrop-blur-sm">
         <div className="container mx-auto px-6 py-8">
           <div className="text-center text-muted-foreground">
-            <p className="text-sm">
+            <p className="text-sm font-medium">
               © 2025 CEML1 Project - Machine Learning CO3117
             </p>
             <p className="text-xs mt-2">

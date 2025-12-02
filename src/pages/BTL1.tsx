@@ -122,7 +122,7 @@ const BTL1 = () => {
               </div>
 
               <div className="bg-accent/10 border-l-4 border-accent p-3 rounded">
-                <strong className="text-foreground">Điểm nổi bật:</strong> Xác định các đặc điểm quan trọng của dữ liệu, mối quan hệ giữa các biến, và đưa ra quyết định có cơ sở về việc lựa chọn và xử lý đặc trưng đầu vào.
+                 Xác định các đặc điểm quan trọng của dữ liệu, mối quan hệ giữa các biến, và đưa ra quyết định có cơ sở về việc lựa chọn và xử lý đặc trưng đầu vào.
               </div>
             </div>
           </Card>
@@ -162,7 +162,7 @@ const BTL1 = () => {
               </div>
 
               <div className="bg-accent/10 border-l-4 border-accent p-3 rounded">
-                <strong className="text-foreground">Điểm nổi bật:</strong> Các bước tiền xử lý được thực hiện cẩn thận, tuân thủ nguyên tắc chống rò rỉ dữ liệu bằng cách chia tập train/test sớm và học các tham số tiền xử lý chỉ trên tập huấn luyện.
+                 Các bước tiền xử lý được thực hiện cẩn thận, tuân thủ nguyên tắc chống rò rỉ dữ liệu bằng cách chia tập train/test sớm và học các tham số tiền xử lý chỉ trên tập huấn luyện.
               </div>
             </div>
           </Card>
@@ -201,7 +201,7 @@ const BTL1 = () => {
               </div>
 
               <div className="bg-accent/10 border-l-4 border-accent p-3 rounded">
-                <strong className="text-foreground">Điểm nổi bật:</strong> Kết hợp feature engineering có ý nghĩa, feature selection có chọn lọc và feature transformation toàn diện (bao gồm imputation, scaling, encoding) cùng với PCA tạo ra một tập dữ liệu đầu vào tối ưu cho mô hình.
+                 Kết hợp feature engineering có ý nghĩa, feature selection có chọn lọc và feature transformation toàn diện (bao gồm imputation, scaling, encoding) cùng với PCA tạo ra một tập dữ liệu đầu vào tối ưu cho mô hình.
               </div>
             </div>
           </Card>
@@ -268,7 +268,7 @@ const BTL1 = () => {
               </div>
 
               <div className="bg-accent/10 border-l-4 border-accent p-3 rounded">
-                <strong className="text-foreground">Điểm nổi bật:</strong> Áp dụng GridSearchCV và cross-validation để tìm siêu tham số tối ưu một cách có hệ thống, đồng thời so sánh hiệu suất giữa các mô hình đa dạng.
+                 Áp dụng GridSearchCV và cross-validation để tìm siêu tham số tối ưu một cách có hệ thống, đồng thời so sánh hiệu suất giữa các mô hình đa dạng.
               </div>
             </div>
           </Card>
@@ -361,7 +361,7 @@ const BTL1 = () => {
               </div>
 
               <div className="bg-accent/10 border-l-4 border-accent p-3 rounded">
-                <strong className="text-foreground">Điểm nổi bật:</strong> Đánh giá toàn diện bằng nhiều chỉ số, so sánh hiệu suất giữa các mô hình và phân tích sâu sắc các biểu đồ chẩn đoán để hiểu rõ hơn về các điểm mạnh, điểm yếu và xu hướng sai sót của mô hình.
+                 Đánh giá toàn diện bằng nhiều chỉ số, so sánh hiệu suất giữa các mô hình và phân tích sâu sắc các biểu đồ chẩn đoán để hiểu rõ hơn về các điểm mạnh, điểm yếu và xu hướng sai sót của mô hình.
               </div>
             </div>
           </Card>

@@ -63,7 +63,7 @@ const BTL3 = () => {
               </div>
 
               <div className="bg-accent/10 border-l-4 border-accent p-3 rounded">
-                <strong className="text-foreground">Điểm nổi bật:</strong> Toàn bộ quy trình này giúp đánh giá sự khác biệt giữa cách tiếp cận "feature extraction → ML", và cách tiếp cận "end-to-end fine-tuning" hiện đại.
+                 Toàn bộ quy trình này giúp đánh giá sự khác biệt giữa cách tiếp cận "feature extraction → ML", và cách tiếp cận "end-to-end fine-tuning" hiện đại.
               </div>
             </div>
           </Card>
@@ -311,7 +311,7 @@ const BTL3 = () => {
               </div>
 
               <div className="bg-accent/10 border-l-4 border-accent p-3 rounded">
-                <strong className="text-foreground">Điểm nổi bật:</strong> ResNet50 tạo đặc trưng phong phú hơn với biến thiên mạnh, trong khi EfficientNet-B0 nhẹ hơn và nhanh hơn nhưng đặc trưng mượt hơn.
+                 ResNet50 tạo đặc trưng phong phú hơn với biến thiên mạnh, trong khi EfficientNet-B0 nhẹ hơn và nhanh hơn nhưng đặc trưng mượt hơn.
               </div>
             </div>
           </Card>
@@ -412,7 +412,7 @@ const BTL3 = () => {
               </div>
 
               <div className="bg-accent/10 border-l-4 border-accent p-3 rounded">
-                <strong className="text-foreground">Điểm nổi bật:</strong> ML dựa hoàn toàn vào chất lượng đặc trưng. ResNet50 phù hợp nhất. Logistic Regression vượt trội SVM và RF về cả accuracy và tốc độ.
+                 ML dựa hoàn toàn vào chất lượng đặc trưng. ResNet50 phù hợp nhất. Logistic Regression vượt trội SVM và RF về cả accuracy và tốc độ.
               </div>
             </div>
           </Card>
@@ -531,7 +531,7 @@ const BTL3 = () => {
               </div>
 
               <div className="bg-accent/10 border-l-4 border-accent p-3 rounded">
-                <strong className="text-foreground">Điểm nổi bật:</strong> Fine-tuning ResNet18 đạt hiệu suất vượt trội nhờ khả năng học end-to-end các đặc trưng phù hợp với bài toán cụ thể.
+                 Fine-tuning ResNet18 đạt hiệu suất vượt trội nhờ khả năng học end-to-end các đặc trưng phù hợp với bài toán cụ thể.
               </div>
             </div>
           </Card>
@@ -557,7 +557,7 @@ const BTL3 = () => {
               </ul>
 
               <div className="bg-accent/10 border-l-4 border-accent p-3 rounded">
-                <strong className="text-foreground">Điểm nổi bật:</strong> Mô hình deep learning có khả năng phân biệt tốt cả các lớp hoa có đặc trưng tương tự nhau.
+                 Mô hình deep learning có khả năng phân biệt tốt cả các lớp hoa có đặc trưng tương tự nhau.
               </div>
             </div>
           </Card>
@@ -589,7 +589,7 @@ const BTL3 = () => {
               </div>
 
               <div className="bg-accent/10 border-l-4 border-accent p-3 rounded">
-                <strong className="text-foreground">Điểm nổi bật:</strong> Dự án đã xây dựng thành công pipeline hoàn chỉnh từ EDA → Preprocessing → Feature Extraction → ML/DL Training → Evaluation, cho phép so sánh toàn diện giữa hai cách tiếp cận.
+                 Dự án đã xây dựng thành công pipeline hoàn chỉnh từ EDA → Preprocessing → Feature Extraction → ML/DL Training → Evaluation, cho phép so sánh toàn diện giữa hai cách tiếp cận.
               </div>
             </div>
           </Card>

@@ -975,99 +975,10 @@ const BertEvaluation= () => {
       {/* ================================================================================== */}
       {/* 3. LIVE DEMO (MÔ PHỎNG TRIỂN KHAI) */}
       {/* ================================================================================== */}
-      <div className="bg-gradient-to-br from-gray-900 to-black text-white rounded-3xl p-8 md:p-12 shadow-2xl relative overflow-hidden border border-gray-800">
-        
-        {/* Background Decorative Elements */}
-        <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl -mr-10 -mt-10"></div>
-        <div className="absolute bottom-0 left-0 w-40 h-40 bg-purple-500/10 rounded-full blur-3xl -ml-10 -mb-10"></div>
+      
 
-        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          
-          {/* Cột giới thiệu */}
-          <div className="space-y-6">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-500/20 border border-green-500/30 text-green-400 text-xs font-bold uppercase tracking-widest">
-              <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-              Live Inference System
-            </div>
-            <h3 className="text-3xl font-bold">Hệ thống Dự đoán Thực tế</h3>
-            <p className="text-gray-400 leading-relaxed">
-              Mô hình đã được đóng gói và sẵn sàng sử dụng. Hãy nhập một tiêu đề tin tức bất kỳ (tiếng Anh) để kiểm tra khả năng phát hiện tin giả của BERT.
-            </p>
-            
-            <div className="bg-gray-800/50 p-4 rounded-xl border border-gray-700">
-               <h4 className="text-sm font-bold text-gray-300 mb-2">💡 Gợi ý (Test Cases):</h4>
-               <ul className="space-y-2 text-sm text-gray-400 font-mono">
-                 <li className="cursor-pointer hover:text-white hover:bg-gray-700/50 p-1 rounded transition-colors" onClick={() => setInputText("NASA confirms alien life discovered on Mars!")}>
-                   • "NASA confirms alien life discovered on Mars!" <span className="text-red-400">(Fake)</span>
-                 </li>
-                 <li className="cursor-pointer hover:text-white hover:bg-gray-700/50 p-1 rounded transition-colors" onClick={() => setInputText("Government announces new tax policy for 2025.")}>
-                   • "Government announces new tax policy for 2025." <span className="text-green-400">(Real)</span>
-                 </li>
-               </ul>
-            </div>
-          </div>
-
-          {/* Cột tương tác (Input Form) */}
-          <div className="bg-gray-800 rounded-2xl p-6 border border-gray-700 shadow-xl relative">
-            
-            {/* Input Label */}
-            <div className="flex justify-between items-center mb-2">
-                <label className="text-sm font-bold text-gray-300">Nhập văn bản (Input Text)</label>
-                <span className="text-xs text-gray-500">{inputText.length} chars</span>
-            </div>
-
-            <textarea
-              value={inputText}
-              onChange={(e) => setInputText(e.target.value)}
-              placeholder="Paste news headline here..."
-              className="w-full bg-gray-900 border border-gray-600 rounded-xl p-4 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all min-h-[120px] resize-none font-sans"
-            ></textarea>
-            
-            <button
-              onClick={handlePredict}
-              disabled={isAnalyzing || !inputText}
-              className={`w-full mt-4 py-3 rounded-xl font-bold flex items-center justify-center gap-2 transition-all transform active:scale-95 ${
-                isAnalyzing ? 'bg-gray-600 cursor-not-allowed' : 'bg-indigo-600 hover:bg-indigo-500 hover:shadow-lg hover:shadow-indigo-500/25'
-              }`}
-            >
-              {isAnalyzing ? (
-                <>
-                  <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                  </svg>
-                  Processing (BERT)...
-                </>
-              ) : (
-                <>
-                  🚀 Analyze Text
-                </>
-              )}
-            </button>
-
-            {/* Kết quả dự đoán */}
-            {prediction && (
-              <div className={`mt-6 p-4 rounded-xl border-2 flex items-center justify-between animate-scale-in shadow-inner ${
-                prediction === 'Fake' 
-                  ? 'bg-red-500/10 border-red-500/50 text-red-400' 
-                  : 'bg-green-500/10 border-green-500/50 text-green-400'
-              }`}>
-                <div>
-                  <div className="text-[10px] uppercase font-bold opacity-80 mb-1">Prediction Result</div>
-                  <div className="text-2xl font-extrabold flex items-center gap-2">
-                    {prediction === 'Fake' ? '❌ FAKE NEWS' : '✅ REAL NEWS'}
-                  </div>
-                  <div className="text-xs mt-1 opacity-70">Confidence: 99.8%</div>
-                </div>
-                <div className="text-4xl filter drop-shadow-md">
-                  {prediction === 'Fake' ? '🤥' : '📰'}
-                </div>
-              </div>
-            )}
-          </div>
-
-        </div>
-      </div>
+       
+      
 
     </div>
   );

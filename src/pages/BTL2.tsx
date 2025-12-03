@@ -1447,9 +1447,7 @@ const FakeNewsAssignment: React.FC = () => {
         </section>
 
         <section id="ml-trad" style={{ marginBottom: "2.5rem" }}>
-          <h2 style={{ fontSize: "3rem", fontWeight: 700, marginBottom: "0.75rem" }}>
-           Deep Learning
-          </h2>
+          
 
 
 

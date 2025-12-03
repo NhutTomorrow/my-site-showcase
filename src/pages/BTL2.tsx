@@ -1455,8 +1455,7 @@ const FakeNewsAssignment: React.FC = () => {
 
                 
 
-         <BertDeepLearning />
-          <ModelComparison />
+        
           
         </section>
 

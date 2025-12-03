@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 // Import Ảnh EDA
-import audioSpectrogram from "@/assets/hpmr/waveform_example.png";
+import audioSpectrogram from "@/assets/hpmr/spectrogram_example.png";
 import audioMFCC from "@/assets/hpmr/mfcc_example.png";
 import chartDurationBefore from "@/assets/hpmr/duration_before.png";
 import chartDurationAfter from "@/assets/hpmr/duration_after.png";

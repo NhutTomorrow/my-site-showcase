@@ -10,6 +10,7 @@ import chartDurationAfter from "@/assets/hpmr/duration_after.png";
 import chartRMSBefore from "@/assets/hpmr/rms_before.png";
 import chartRMSAfter from "@/assets/hpmr/rms_after.png";
 import chartConfusionMattrix from "@/assets/hpmr/confusion_matrix.png";
+import title_pic from "@/assets/hpmr/back_ground.jpg"
 // Import 10 ảnh Waveform
 import chartWaveform_0 from "@/assets/hpmr/EDA_waveform_0.png";
 import chartWaveform_1 from "@/assets/hpmr/EDA_waveform_1.png";
@@ -178,7 +179,9 @@ const HPMR = () => {
                         Nhận dạng số nói (Spoken Digit Recognition) bằng Mô hình Markov Ẩn
                     </p>
                 </div>
-
+              <div className="my-6">
+                    <img src={title_pic} alt="" className="w-full rounded-lg border" />
+                            </div>
                 {/* Section 1: Giới thiệu đề tài */}
                 <section id="gioi-thieu" className="mb-12">
                     <h2 className="text-2xl font-semibold text-primary mb-4">
